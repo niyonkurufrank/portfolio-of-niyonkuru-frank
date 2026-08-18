@@ -1,0 +1,42 @@
+body {
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    gap: 10vh;
+    background-color: #589e9e;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#message {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th {
+    border: 1px solid #ccc;
+}
+
+tr {
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+}
