@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #5a7a8a;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: transparent;
+}
+h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.date {
+  color: #d0e0e8;
+  margin-bottom: 20px;
+}
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.search-box {
+  position: relative;
+}
+.search-box input {
+  padding: 10px 15px 10px 40px;
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+  outline: none;
+}
+.search-box i {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  color: #888;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+thead {
+  background: #1a2a4a;
+  color: white;
+}
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+tbody tr:nth-child(even) {
+  background: #e8f4f8;
+}
+tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+tbody tr:hover {
+  background: #d1ecf1;
+}
+.action i {
+  margin: 0 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.action i:hover {
+  transform: scale(1.2);
+}
+.fa-pen { color: #28a745; }
+.fa-trash { color: #dc3545; }
+.loading { text-align: center; padding: 20px; color: white; }
+
+
+#box{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  z-index:999;
+}
+#box .content{
+  background: #1a2a4a; /* umukara wa bleu */
+  width:500px;
+  margin:10% auto;
+  padding:30px;
+  border-radius:10px;
+  color:white;
+  font-family:Arial;
+}
+#box h2{margin-bottom:20px}
+#box .row{display:flex;gap:15px;margin-bottom:15px}
+#box input{
+  flex:1;
+  padding:12px;
+  border:none;
+  border-radius:5px;
+  background:#dbeafe;
+  color:#000;
+}
+#box .btns{display:flex;gap:10px;margin-top:10px}
+#box .btn-cancel{
+  background:red;
+  color:white;
+  border:none;
+  padding:10px 25px;
+  border-radius:20px;
+  cursor:pointer;
+  font-weight:bold;
+}
+#box .btn-update{
+  background:blue;
+  color:white;
+  border:none;
+  padding:10px 25px;
+  border-radius:20px;
+  cursor:pointer;
+  font-weight:bold;
+}

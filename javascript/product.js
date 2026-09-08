@@ -1,5 +1,3 @@
-const card = document.querySelector('#card')
-
 async function fetchProducts() {
 
     try {
@@ -13,6 +11,3 @@ async function fetchProducts() {
 
 }
 fetchProducts();
-
-
-function populateProduct()

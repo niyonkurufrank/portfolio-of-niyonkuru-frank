@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<titl>table</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+<div class="container">
+  <h1>User Directory</h1>
+  <p class="date" id="date"></p>
+  
+  <div class="top-bar">
+    <div class="search-box">
+      <i class="fa fa-search"></i>
+      <input type="text" id="searchInput" placeholder="Search users...">
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Index</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>UserName</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="userTable">
+      <tr><td colspan="7" class="loading">Loading users...</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="../javascript/table.js"></script>
+</body>
+</html>
